@@ -1,0 +1,21 @@
+/*
+Theme Name: WP Hybrid Starter Theme
+Theme URI: https://github.com/troychaplin/wp-hybrid-starter-theme
+Author: Troy Chaplin
+Author URI: https://troychaplin.ca
+Description: A hybrid starter theme for WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wp-hybrid-starter-theme
+*/
+
+/* Basic Styles */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+	color: #333;
+}
