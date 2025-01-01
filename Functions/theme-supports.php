@@ -15,6 +15,10 @@ class ThemeSupports
 
   public function set_theme_supports()
   {
+    // Add support for editor styles
+    add_theme_support('editor-styles');
+    add_editor_style('build/editor-styles.css');
+
     // Add theme support for post thumbnails
     add_theme_support('post-thumbnails');
 
