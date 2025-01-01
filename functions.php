@@ -1,17 +1,17 @@
 <?php
 
 // Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
+if (! defined('ABSPATH')) {
     exit;
 }
 
 // Load Composer dependencies
-if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
     require_once __DIR__ . '/vendor/autoload.php';
 } else {
-    add_action( 'admin_notices', function() {
+    add_action('admin_notices', function () {
         echo '<div class="error"><p>Composer autoload not found. Run <code>composer install</code> in the theme directory.</p></div>';
-    } );
+    });
     return;
 }
 
