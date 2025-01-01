@@ -17,8 +17,10 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 // Include function files
 require_once plugin_dir_path(__FILE__) . 'Functions/enqueue-scripts.php';
+require_once plugin_dir_path(__FILE__) . 'Functions/theme-supports.php';
 require_once plugin_dir_path(__FILE__) . 'Functions/timber-twig.php';
 
 // Instantiate the classes
 new WPHS\Theme\EnqueueScripts();
+new WPHS\Theme\ThemeSupports();
 new WPHS\Theme\TimberTwig();
