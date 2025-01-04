@@ -2,6 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-.test {
-	@apply bg-slate-500;
-}
+/* Core Blocks */
+@import "./styles/core-button.css";
